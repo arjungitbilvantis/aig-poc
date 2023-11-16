@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WebhookService {
 
-//    private static final String WEBHOOK_URL = "http://localhost:8080/customer/notification"; // Replace with your actual webhook URL
+//    private static final String WEBHOOK_URL = "http://localhost:8080/customer/notification";
 
     public void triggerWebhook() {
         RestTemplate restTemplate = new RestTemplate();
